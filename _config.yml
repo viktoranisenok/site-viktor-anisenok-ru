@@ -51,4 +51,8 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - LICENSE
+  - README.md
+  - .asset-cache
+  - .jekyll-cache
   - .DS_Store
