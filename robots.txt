@@ -1,1 +1,1 @@
-Sitemap: viktoranisenok.ru/sitemap.xml
+Sitemap: http://viktoranisenok.ru/sitemap.xml
