@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>{{ site.title }}</title>
+    
+        <meta property="og:title" content="{{ site.title }}">
+        <meta name="description" content="{{ site.description }}">
+        <meta property="og:description" content="{{ site.description }}">
+        <meta property="og:url" content="{{ page.url | absolute_url}}">
+
+        <!-- Favicon -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="{{ "/assets/css/normalize.css" | absolute_url }}">
+        <link rel="stylesheet" type="text/css" href="{{ "/assets/css/style.css" | absolute_url }}">
+
+        <style type="text/css">
+            body {
+                padding: 3em 7%;
+            }
+
+            h1 {
+                font-size: 2.5em;
+                line-height: 0.9em;
+                display: block;
+                text-transform: none;
+                background-color: #fff;
+            }
+
+            div.container {
+                max-width: 32em;
+            }
+
+            div.social-link {
+                display: inline-block;
+                background-color: #ffd;
+            }
+        </style>
+
+    </head>
+<body>
+    <div class="container">
+    	<h1><b>Виктор Анисёнок</b><br>обычный творческий человек</h1>
+        <p>Можно навешать кучу всяких ярлыков и титулов: <b>мечтатель, дизайнер, музыкант, фотограф, DJ, путешественник, космонавт (?), художник...</b></p>
+        <p>Но, если честно, я не люблю все эти ярлыки, регалии. Вызывающе, обязывающе и ограничивает. Поэтому назову себя обычным творческим человеком.</p>
+
+        <p>
+            <div class="social-link">Ссылки на соц. сети:</div>
+            <a href="https://www.facebook.com/viktoranisenok" target="_blank">Facebook</a> /
+            <a href="https://www.instagram.com/viktoranisenok/" target="_blank">Instagram</a> 
+            
+        </p>
+        <p>Здесь можно <a href="/blog/"><b>почитать блог.</b></a>
+        <p>E-mail: <a href="mailto:hi@viktoranisenok.ru">hi@viktoranisenok.ru</a>
+    </div>
+</body>
+</html>
